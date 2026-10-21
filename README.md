@@ -1,3 +1,1 @@
 # nasa_exoplanet_visualizer_api
-# nasa_exoplanet_visualizer_api
-# nasa_exoplanet_visualizer_api
