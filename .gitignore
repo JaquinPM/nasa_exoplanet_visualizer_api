@@ -1,0 +1,90 @@
+
+# =========================================================================
+# MAVEN
+# =========================================================================
+# Ignora todo el directorio de compilación generado por Maven
+target/
+*.jar
+*.war
+*.ear
+*.zip
+
+# Evita ignorar el JAR del Maven Wrapper si lo utilizas en el proyecto
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Archivos temporales o de configuración generados por plugins de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.flattened-pom.xml
+
+# =========================================================================
+# IDEs (Entornos de Desarrollo)
+# =========================================================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / Spring Tool Suite (STS)
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+*.launch
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+nbproject/SpringConnect.properties
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# ARCHIVOS DEL SISTEMA OPERATIVO Y LOGS
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs del sistema y de Spring Boot
+*.log
+logs/
+log/
+
+# Archivos temporales de texto y bloqueos
+*.swp
+*~
+*.tmp
+*.bak
+
+# =========================================================================
+# SEGURIDAD Y CONFIGURACIONES LOCALES (¡Crítico!)
+# =========================================================================
+# Archivos de entorno que contienen contraseñas o llaves API secretas
+.env
+.env.local
+
+# Descomenta las siguientes líneas si manejas tus credenciales locales en estos archivos:
+# application-local.properties
+# application-local.yml
